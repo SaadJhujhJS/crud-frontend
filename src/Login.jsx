@@ -76,6 +76,13 @@ export default function Login() {
             Login
           </button>
         </form>
+        <div  className="text-left mt-1">
+          <p className="text-xs">
+            <a href="/update-login" className="text-red-500 underline">
+              Forget Password?
+            </a>
+          </p>
+        </div>
         <div className="text-center mt-4">
           <p className="text-sm text-gray-600">
             Don't have an account?{" "}
